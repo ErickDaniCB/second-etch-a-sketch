@@ -9,3 +9,10 @@ function createGridElements(dimension) {
     }
   }
 }
+
+createGridElements(16);
+
+container.addEventListener("mouseover", (event) => {
+  let target = event.target;
+  target.classList.add("black");
+});
