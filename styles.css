@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+
+.container { 
+    outline: 2px solid black;
+    display: flex;
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.pixel {
+    outline: 1px solid rgb(197, 18, 48);
+    flex-basis: 50px;
+    height: 50px;
+}
+
